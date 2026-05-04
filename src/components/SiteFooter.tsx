@@ -1,4 +1,4 @@
-import logo from "../logo(1).png";
+import logo from "../logo_main.png";
 
 export function SiteFooter() {
   const cols = [
