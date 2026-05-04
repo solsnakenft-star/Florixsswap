@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { SiteHeader } from "@/components/SiteHeader";
-import { Hero } from "@/components/Hero";
-import { SwapInterface } from "@/components/SwapInterface";
-import { TrustSection } from "@/components/TrustSection";
-import { TransactionTable } from "@/components/TransactionTable";
-import { EcosystemSection } from "@/components/EcosystemSection";
-import { CommunitySection } from "@/components/CommunitySection";
-import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
+import { Hero } from "../components/Hero";
+import { SwapInterface } from "../components/SwapInterface";
+import { TrustSection } from "../components/TrustSection";
+import { TransactionTable } from "../components/TransactionTable";
+import { EcosystemSection } from "../components/EcosystemSection";
+import { CommunitySection } from "../components/CommunitySection";
+import { SiteFooter } from "../components/SiteFooter";
 
 export const Route = createFileRoute("/")({
   component: Index,
